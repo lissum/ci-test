@@ -1,4 +1,4 @@
-image: Ubuntu1804
+image: Ubuntu22
 stack: node 21
 
 branches:
