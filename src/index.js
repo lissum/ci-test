@@ -1,1 +1,1 @@
-import getHealthStatus from "./js/app";
+import "./js/app";
