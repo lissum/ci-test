@@ -1,6 +1,5 @@
-environment:
-  image: 'Ubuntu2204'
-  nodejs_version: "22"
+image: Ubuntu2204
+stack: node 22
 
 branches:
   only:
@@ -12,9 +11,6 @@ install:
   - npm install  # команда установки зависимостей
 
 build: off  # отключаем встроенную в appveyor систему сборки
-
-build_script:
-  - npm run build   # команда сборки
 
 test_script:
   - npm run lint && npm test  # скрипт тестирования
