@@ -1,9 +1,9 @@
 environment:
+  image: 'Ubuntu2204'
   nodejs_version: "22"
 
 branches:
   only:
-    - master  # ветка git
     - main
 
 cache: node_modules  # кеширование
